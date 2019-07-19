@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71A52C0722E05EF50095B008 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C0622E05EF50095B008 /* AppDelegate.m */; };
+		71A52C0922E05EF50095B008 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A52C0822E05EF50095B008 /* art.scnassets */; };
+		71A52C0C22E05EF50095B008 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C0B22E05EF50095B008 /* ViewController.m */; };
+		71A52C0F22E05EF50095B008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A52C0D22E05EF50095B008 /* Main.storyboard */; };
+		71A52C1122E05EF90095B008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A52C1022E05EF90095B008 /* Assets.xcassets */; };
+		71A52C1422E05EF90095B008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A52C1222E05EF90095B008 /* LaunchScreen.storyboard */; };
+		71A52C1722E05EF90095B008 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C1622E05EF90095B008 /* main.m */; };
+		71A52C2122E05EF90095B008 /* ARPlayMagicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C2022E05EF90095B008 /* ARPlayMagicTests.m */; };
+		71A52C2C22E05EF90095B008 /* ARPlayMagicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C2B22E05EF90095B008 /* ARPlayMagicUITests.m */; };
+		71A52C4222E064BA0095B008 /* ARLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C4022E064BA0095B008 /* ARLaunchViewController.m */; };
+		71A52C4322E064BA0095B008 /* ARLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C4022E064BA0095B008 /* ARLaunchViewController.m */; };
+		71A52C4422E064BA0095B008 /* ARLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C4022E064BA0095B008 /* ARLaunchViewController.m */; };
+		71A52C4522E064BA0095B008 /* ARLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A52C4122E064BA0095B008 /* ARLaunchViewController.xib */; };
+		71A52C4622E064BA0095B008 /* ARLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A52C4122E064BA0095B008 /* ARLaunchViewController.xib */; };
+		71A52C4722E064BA0095B008 /* ARLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A52C4122E064BA0095B008 /* ARLaunchViewController.xib */; };
+		71A52C4E22E06C110095B008 /* ARBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C4C22E06C110095B008 /* ARBaseVC.m */; };
+		71A52C4F22E06C110095B008 /* ARBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C4C22E06C110095B008 /* ARBaseVC.m */; };
+		71A52C5022E06C110095B008 /* ARBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C4C22E06C110095B008 /* ARBaseVC.m */; };
+		71A52C5122E06C110095B008 /* ArBaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A52C4D22E06C110095B008 /* ArBaseVC.xib */; };
+		71A52C5222E06C110095B008 /* ArBaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A52C4D22E06C110095B008 /* ArBaseVC.xib */; };
+		71A52C5322E06C110095B008 /* ArBaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A52C4D22E06C110095B008 /* ArBaseVC.xib */; };
+		71A52C5722E06C840095B008 /* ARBaseNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C5522E06C840095B008 /* ARBaseNavigationVC.m */; };
+		71A52C5822E06C840095B008 /* ARBaseNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C5522E06C840095B008 /* ARBaseNavigationVC.m */; };
+		71A52C5922E06C840095B008 /* ARBaseNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C5522E06C840095B008 /* ARBaseNavigationVC.m */; };
+		71A52C5A22E06C840095B008 /* ARBaseNavigationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A52C5622E06C840095B008 /* ARBaseNavigationVC.xib */; };
+		71A52C5B22E06C840095B008 /* ARBaseNavigationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A52C5622E06C840095B008 /* ARBaseNavigationVC.xib */; };
+		71A52C5C22E06C840095B008 /* ARBaseNavigationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A52C5622E06C840095B008 /* ARBaseNavigationVC.xib */; };
+		71A52C5F22E070F30095B008 /* ARTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C5E22E070F30095B008 /* ARTabBarVC.m */; };
+		71A52C6022E070F30095B008 /* ARTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C5E22E070F30095B008 /* ARTabBarVC.m */; };
+		71A52C6122E070F30095B008 /* ARTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C5E22E070F30095B008 /* ARTabBarVC.m */; };
+		71A52C6522E072210095B008 /* DefaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C6422E072210095B008 /* DefaultView.m */; };
+		71A52C6622E072210095B008 /* DefaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C6422E072210095B008 /* DefaultView.m */; };
+		71A52C6722E072210095B008 /* DefaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C6422E072210095B008 /* DefaultView.m */; };
+		72C7D04766488DC07DC5B9ED /* libPods-ARPlayMagic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9320EF2F8CC708A5052E744 /* libPods-ARPlayMagic.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71A52C1D22E05EF90095B008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71A52BFA22E05EF50095B008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71A52C0122E05EF50095B008;
+			remoteInfo = ARPlayMagic;
+		};
+		71A52C2822E05EF90095B008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71A52BFA22E05EF50095B008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71A52C0122E05EF50095B008;
+			remoteInfo = ARPlayMagic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		091D57862327D3F971032DD1 /* Pods-ARPlayMagic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPlayMagic.debug.xcconfig"; path = "Target Support Files/Pods-ARPlayMagic/Pods-ARPlayMagic.debug.xcconfig"; sourceTree = "<group>"; };
+		4A1A1665D158AD4BEAEF7530 /* Pods-ARPlayMagic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARPlayMagic.release.xcconfig"; path = "Target Support Files/Pods-ARPlayMagic/Pods-ARPlayMagic.release.xcconfig"; sourceTree = "<group>"; };
+		71A52C0222E05EF50095B008 /* ARPlayMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPlayMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A52C0522E05EF50095B008 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ARPlayMagic/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		71A52C0622E05EF50095B008 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ARPlayMagic/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		71A52C0822E05EF50095B008 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		71A52C0A22E05EF50095B008 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71A52C0B22E05EF50095B008 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71A52C0E22E05EF50095B008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71A52C1022E05EF90095B008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71A52C1322E05EF90095B008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71A52C1522E05EF90095B008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A52C1622E05EF90095B008 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71A52C1C22E05EF90095B008 /* ARPlayMagicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARPlayMagicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A52C2022E05EF90095B008 /* ARPlayMagicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARPlayMagicTests.m; sourceTree = "<group>"; };
+		71A52C2222E05EF90095B008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A52C2722E05EF90095B008 /* ARPlayMagicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARPlayMagicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A52C2B22E05EF90095B008 /* ARPlayMagicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARPlayMagicUITests.m; sourceTree = "<group>"; };
+		71A52C2D22E05EF90095B008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A52C3F22E064BA0095B008 /* ARLaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARLaunchViewController.h; sourceTree = "<group>"; };
+		71A52C4022E064BA0095B008 /* ARLaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARLaunchViewController.m; sourceTree = "<group>"; };
+		71A52C4122E064BA0095B008 /* ARLaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARLaunchViewController.xib; sourceTree = "<group>"; };
+		71A52C4B22E06C110095B008 /* ARBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARBaseVC.h; sourceTree = "<group>"; };
+		71A52C4C22E06C110095B008 /* ARBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARBaseVC.m; sourceTree = "<group>"; };
+		71A52C4D22E06C110095B008 /* ArBaseVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArBaseVC.xib; sourceTree = "<group>"; };
+		71A52C5422E06C840095B008 /* ARBaseNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARBaseNavigationVC.h; sourceTree = "<group>"; };
+		71A52C5522E06C840095B008 /* ARBaseNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARBaseNavigationVC.m; sourceTree = "<group>"; };
+		71A52C5622E06C840095B008 /* ARBaseNavigationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARBaseNavigationVC.xib; sourceTree = "<group>"; };
+		71A52C5D22E070F30095B008 /* ARTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARTabBarVC.h; sourceTree = "<group>"; };
+		71A52C5E22E070F30095B008 /* ARTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARTabBarVC.m; sourceTree = "<group>"; };
+		71A52C6322E072210095B008 /* DefaultView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultView.h; sourceTree = "<group>"; };
+		71A52C6422E072210095B008 /* DefaultView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultView.m; sourceTree = "<group>"; };
+		E9320EF2F8CC708A5052E744 /* libPods-ARPlayMagic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARPlayMagic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71A52BFF22E05EF50095B008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C7D04766488DC07DC5B9ED /* libPods-ARPlayMagic.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A52C1922E05EF90095B008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A52C2422E05EF90095B008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71A52BF922E05EF50095B008 = {
+			isa = PBXGroup;
+			children = (
+				71A52C0422E05EF50095B008 /* ARPlayMagic */,
+				71A52C1F22E05EF90095B008 /* ARPlayMagicTests */,
+				71A52C2A22E05EF90095B008 /* ARPlayMagicUITests */,
+				71A52C0322E05EF50095B008 /* Products */,
+				D1FBCBCF737383B5047D008D /* Pods */,
+				E84883BDF5260ACB32A26326 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		71A52C0322E05EF50095B008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71A52C0222E05EF50095B008 /* ARPlayMagic.app */,
+				71A52C1C22E05EF90095B008 /* ARPlayMagicTests.xctest */,
+				71A52C2722E05EF90095B008 /* ARPlayMagicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71A52C0422E05EF50095B008 /* ARPlayMagic */ = {
+			isa = PBXGroup;
+			children = (
+				71A52C0522E05EF50095B008 /* AppDelegate.h */,
+				71A52C0622E05EF50095B008 /* AppDelegate.m */,
+				71A52C4822E06B7B0095B008 /* MainBase */,
+				71A52C3C22E0633C0095B008 /* AppLaunch */,
+				71A52C0822E05EF50095B008 /* art.scnassets */,
+				71A52C0A22E05EF50095B008 /* ViewController.h */,
+				71A52C0B22E05EF50095B008 /* ViewController.m */,
+				71A52C3A22E062A80095B008 /* Home */,
+				71A52C0D22E05EF50095B008 /* Main.storyboard */,
+				71A52C1022E05EF90095B008 /* Assets.xcassets */,
+				71A52C1222E05EF90095B008 /* LaunchScreen.storyboard */,
+				71A52C1522E05EF90095B008 /* Info.plist */,
+				71A52C1622E05EF90095B008 /* main.m */,
+			);
+			path = ARPlayMagic;
+			sourceTree = "<group>";
+		};
+		71A52C1F22E05EF90095B008 /* ARPlayMagicTests */ = {
+			isa = PBXGroup;
+			children = (
+				71A52C2022E05EF90095B008 /* ARPlayMagicTests.m */,
+				71A52C2222E05EF90095B008 /* Info.plist */,
+			);
+			path = ARPlayMagicTests;
+			sourceTree = "<group>";
+		};
+		71A52C2A22E05EF90095B008 /* ARPlayMagicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71A52C2B22E05EF90095B008 /* ARPlayMagicUITests.m */,
+				71A52C2D22E05EF90095B008 /* Info.plist */,
+			);
+			path = ARPlayMagicUITests;
+			sourceTree = "<group>";
+		};
+		71A52C3A22E062A80095B008 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		71A52C3C22E0633C0095B008 /* AppLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				71A52C3E22E063720095B008 /* Model */,
+				71A52C3D22E063650095B008 /* Controllers */,
+			);
+			path = AppLaunch;
+			sourceTree = "<group>";
+		};
+		71A52C3D22E063650095B008 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				71A52C3F22E064BA0095B008 /* ARLaunchViewController.h */,
+				71A52C4022E064BA0095B008 /* ARLaunchViewController.m */,
+				71A52C4122E064BA0095B008 /* ARLaunchViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		71A52C3E22E063720095B008 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71A52C4822E06B7B0095B008 /* MainBase */ = {
+			isa = PBXGroup;
+			children = (
+				71A52C6222E071F30095B008 /* View */,
+				71A52C4A22E06BB20095B008 /* Model */,
+				71A52C4922E06BAD0095B008 /* ViewControllers */,
+			);
+			path = MainBase;
+			sourceTree = "<group>";
+		};
+		71A52C4922E06BAD0095B008 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				71A52C4B22E06C110095B008 /* ARBaseVC.h */,
+				71A52C4C22E06C110095B008 /* ARBaseVC.m */,
+				71A52C4D22E06C110095B008 /* ArBaseVC.xib */,
+				71A52C5422E06C840095B008 /* ARBaseNavigationVC.h */,
+				71A52C5522E06C840095B008 /* ARBaseNavigationVC.m */,
+				71A52C5622E06C840095B008 /* ARBaseNavigationVC.xib */,
+				71A52C5D22E070F30095B008 /* ARTabBarVC.h */,
+				71A52C5E22E070F30095B008 /* ARTabBarVC.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		71A52C4A22E06BB20095B008 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71A52C6222E071F30095B008 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71A52C6322E072210095B008 /* DefaultView.h */,
+				71A52C6422E072210095B008 /* DefaultView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1FBCBCF737383B5047D008D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				091D57862327D3F971032DD1 /* Pods-ARPlayMagic.debug.xcconfig */,
+				4A1A1665D158AD4BEAEF7530 /* Pods-ARPlayMagic.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E84883BDF5260ACB32A26326 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9320EF2F8CC708A5052E744 /* libPods-ARPlayMagic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71A52C0122E05EF50095B008 /* ARPlayMagic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A52C3022E05EF90095B008 /* Build configuration list for PBXNativeTarget "ARPlayMagic" */;
+			buildPhases = (
+				323CC5F2FF44F99AB488AADE /* [CP] Check Pods Manifest.lock */,
+				71A52BFE22E05EF50095B008 /* Sources */,
+				71A52BFF22E05EF50095B008 /* Frameworks */,
+				71A52C0022E05EF50095B008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARPlayMagic;
+			productName = ARPlayMagic;
+			productReference = 71A52C0222E05EF50095B008 /* ARPlayMagic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71A52C1B22E05EF90095B008 /* ARPlayMagicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A52C3322E05EF90095B008 /* Build configuration list for PBXNativeTarget "ARPlayMagicTests" */;
+			buildPhases = (
+				71A52C1822E05EF90095B008 /* Sources */,
+				71A52C1922E05EF90095B008 /* Frameworks */,
+				71A52C1A22E05EF90095B008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71A52C1E22E05EF90095B008 /* PBXTargetDependency */,
+			);
+			name = ARPlayMagicTests;
+			productName = ARPlayMagicTests;
+			productReference = 71A52C1C22E05EF90095B008 /* ARPlayMagicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71A52C2622E05EF90095B008 /* ARPlayMagicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A52C3622E05EF90095B008 /* Build configuration list for PBXNativeTarget "ARPlayMagicUITests" */;
+			buildPhases = (
+				71A52C2322E05EF90095B008 /* Sources */,
+				71A52C2422E05EF90095B008 /* Frameworks */,
+				71A52C2522E05EF90095B008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71A52C2922E05EF90095B008 /* PBXTargetDependency */,
+			);
+			name = ARPlayMagicUITests;
+			productName = ARPlayMagicUITests;
+			productReference = 71A52C2722E05EF90095B008 /* ARPlayMagicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71A52BFA22E05EF50095B008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = zhifu360;
+				TargetAttributes = {
+					71A52C0122E05EF50095B008 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					71A52C1B22E05EF90095B008 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 71A52C0122E05EF50095B008;
+					};
+					71A52C2622E05EF90095B008 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 71A52C0122E05EF50095B008;
+					};
+				};
+			};
+			buildConfigurationList = 71A52BFD22E05EF50095B008 /* Build configuration list for PBXProject "ARPlayMagic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71A52BF922E05EF50095B008;
+			productRefGroup = 71A52C0322E05EF50095B008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71A52C0122E05EF50095B008 /* ARPlayMagic */,
+				71A52C1B22E05EF90095B008 /* ARPlayMagicTests */,
+				71A52C2622E05EF90095B008 /* ARPlayMagicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71A52C0022E05EF50095B008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A52C0922E05EF50095B008 /* art.scnassets in Resources */,
+				71A52C1422E05EF90095B008 /* LaunchScreen.storyboard in Resources */,
+				71A52C4522E064BA0095B008 /* ARLaunchViewController.xib in Resources */,
+				71A52C5122E06C110095B008 /* ArBaseVC.xib in Resources */,
+				71A52C1122E05EF90095B008 /* Assets.xcassets in Resources */,
+				71A52C5A22E06C840095B008 /* ARBaseNavigationVC.xib in Resources */,
+				71A52C0F22E05EF50095B008 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A52C1A22E05EF90095B008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A52C4622E064BA0095B008 /* ARLaunchViewController.xib in Resources */,
+				71A52C5B22E06C840095B008 /* ARBaseNavigationVC.xib in Resources */,
+				71A52C5222E06C110095B008 /* ArBaseVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A52C2522E05EF90095B008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A52C4722E064BA0095B008 /* ARLaunchViewController.xib in Resources */,
+				71A52C5C22E06C840095B008 /* ARBaseNavigationVC.xib in Resources */,
+				71A52C5322E06C110095B008 /* ArBaseVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		323CC5F2FF44F99AB488AADE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARPlayMagic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71A52BFE22E05EF50095B008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A52C6522E072210095B008 /* DefaultView.m in Sources */,
+				71A52C5722E06C840095B008 /* ARBaseNavigationVC.m in Sources */,
+				71A52C5F22E070F30095B008 /* ARTabBarVC.m in Sources */,
+				71A52C0C22E05EF50095B008 /* ViewController.m in Sources */,
+				71A52C1722E05EF90095B008 /* main.m in Sources */,
+				71A52C0722E05EF50095B008 /* AppDelegate.m in Sources */,
+				71A52C4E22E06C110095B008 /* ARBaseVC.m in Sources */,
+				71A52C4222E064BA0095B008 /* ARLaunchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A52C1822E05EF90095B008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A52C4F22E06C110095B008 /* ARBaseVC.m in Sources */,
+				71A52C2122E05EF90095B008 /* ARPlayMagicTests.m in Sources */,
+				71A52C5822E06C840095B008 /* ARBaseNavigationVC.m in Sources */,
+				71A52C4322E064BA0095B008 /* ARLaunchViewController.m in Sources */,
+				71A52C6622E072210095B008 /* DefaultView.m in Sources */,
+				71A52C6022E070F30095B008 /* ARTabBarVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71A52C2322E05EF90095B008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A52C5022E06C110095B008 /* ARBaseVC.m in Sources */,
+				71A52C2C22E05EF90095B008 /* ARPlayMagicUITests.m in Sources */,
+				71A52C5922E06C840095B008 /* ARBaseNavigationVC.m in Sources */,
+				71A52C4422E064BA0095B008 /* ARLaunchViewController.m in Sources */,
+				71A52C6722E072210095B008 /* DefaultView.m in Sources */,
+				71A52C6122E070F30095B008 /* ARTabBarVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71A52C1E22E05EF90095B008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71A52C0122E05EF50095B008 /* ARPlayMagic */;
+			targetProxy = 71A52C1D22E05EF90095B008 /* PBXContainerItemProxy */;
+		};
+		71A52C2922E05EF90095B008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71A52C0122E05EF50095B008 /* ARPlayMagic */;
+			targetProxy = 71A52C2822E05EF90095B008 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71A52C0D22E05EF50095B008 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A52C0E22E05EF50095B008 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71A52C1222E05EF90095B008 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71A52C1322E05EF90095B008 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71A52C2E22E05EF90095B008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71A52C2F22E05EF90095B008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71A52C3122E05EF90095B008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 091D57862327D3F971032DD1 /* Pods-ARPlayMagic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YU8H2CPB2;
+				INFOPLIST_FILE = ARPlayMagic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhifu360.www.ARPlayMagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71A52C3222E05EF90095B008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1A1665D158AD4BEAEF7530 /* Pods-ARPlayMagic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YU8H2CPB2;
+				INFOPLIST_FILE = ARPlayMagic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhifu360.www.ARPlayMagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71A52C3422E05EF90095B008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YU8H2CPB2;
+				INFOPLIST_FILE = ARPlayMagicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhifu360.www.ARPlayMagicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARPlayMagic.app/ARPlayMagic";
+			};
+			name = Debug;
+		};
+		71A52C3522E05EF90095B008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YU8H2CPB2;
+				INFOPLIST_FILE = ARPlayMagicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhifu360.www.ARPlayMagicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARPlayMagic.app/ARPlayMagic";
+			};
+			name = Release;
+		};
+		71A52C3722E05EF90095B008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YU8H2CPB2;
+				INFOPLIST_FILE = ARPlayMagicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhifu360.www.ARPlayMagicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARPlayMagic;
+			};
+			name = Debug;
+		};
+		71A52C3822E05EF90095B008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YU8H2CPB2;
+				INFOPLIST_FILE = ARPlayMagicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhifu360.www.ARPlayMagicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARPlayMagic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71A52BFD22E05EF50095B008 /* Build configuration list for PBXProject "ARPlayMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A52C2E22E05EF90095B008 /* Debug */,
+				71A52C2F22E05EF90095B008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A52C3022E05EF90095B008 /* Build configuration list for PBXNativeTarget "ARPlayMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A52C3122E05EF90095B008 /* Debug */,
+				71A52C3222E05EF90095B008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A52C3322E05EF90095B008 /* Build configuration list for PBXNativeTarget "ARPlayMagicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A52C3422E05EF90095B008 /* Debug */,
+				71A52C3522E05EF90095B008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A52C3622E05EF90095B008 /* Build configuration list for PBXNativeTarget "ARPlayMagicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A52C3722E05EF90095B008 /* Debug */,
+				71A52C3822E05EF90095B008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71A52BFA22E05EF50095B008 /* Project object */;
+}
