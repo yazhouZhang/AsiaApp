@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont NavigationTitleFont],NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:29.0],NSForegroundColorAttributeName:[UIColor whiteColor]}];
     self.navigationController.interactivePopGestureRecognizer.enabled = YES;
     self.edgesForExtendedLayout = UIRectEdgeNone;
      [self setLeftNavigationItem:NO];

@@ -22,9 +22,28 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    [self setUpLaunchViewController];
     return YES;
 }
 
+-(void)setUpLaunchViewController{
+    ARLaunchViewController *launch = [[ARLaunchViewController alloc] init];
+    [self restoreRootViewController:launch];
+}
+
+/**
+ 重置RootVC,渐变动画去显示window的变化
+ */
+- (void)restoreRootViewController:(UIViewController *)rootViewController{
+    [UIView transitionWithView:self.window duration:0.15f options:UIViewAnimationOptionTransitionCrossDissolve animations:^{
+        BOOL oldState = [UIView areAnimationsEnabled];
+        [UIView setAnimationsEnabled:NO];
+        self.window.rootViewController = rootViewController;
+        [UIView setAnimationsEnabled:oldState];
+    } completion:^(BOOL finished) {
+        
+    }];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -44,8 +44,8 @@
         make.centerX.mas_equalTo(self.mas_centerX);
     }];
     tip1Label.textAlignment = NSTextAlignmentCenter;
-    tip1Label.textColor = [UIColor loginGrayColor];
-    tip1Label.font = [UIFont stateFont];
+    tip1Label.textColor = [UIColor lightGrayColor];
+    tip1Label.font = [UIFont systemFontOfSize:14.0];
     tip1Label.text = @"网络异常";
     
     //    tip2Label = [UILabel new];
@@ -71,7 +71,7 @@
     }];
     [reloadButton setTitle:@"点击重试" forState:UIControlStateNormal];
     [reloadButton setTitleColor:[UIColor skinColor] forState:UIControlStateNormal];
-    reloadButton.titleLabel.font = [UIFont stateFont];
+    reloadButton.titleLabel.font = [UIFont systemFontOfSize:14.0];
     [reloadButton addTarget:self action:@selector(reloadButtonAction) forControlEvents:UIControlEventTouchUpInside];
     reloadButton.layer.borderWidth = 0.5;
     reloadButton.layer.borderColor = [UIColor skinColor].CGColor;

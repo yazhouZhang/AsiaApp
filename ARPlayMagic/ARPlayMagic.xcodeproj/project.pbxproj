@@ -40,6 +40,9 @@
 		71A52C6522E072210095B008 /* DefaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C6422E072210095B008 /* DefaultView.m */; };
 		71A52C6622E072210095B008 /* DefaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C6422E072210095B008 /* DefaultView.m */; };
 		71A52C6722E072210095B008 /* DefaultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C6422E072210095B008 /* DefaultView.m */; };
+		71A52C7422E15C280095B008 /* UIColor+ARColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C7322E15C280095B008 /* UIColor+ARColor.m */; };
+		71A52C7522E15C280095B008 /* UIColor+ARColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C7322E15C280095B008 /* UIColor+ARColor.m */; };
+		71A52C7622E15C280095B008 /* UIColor+ARColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C7322E15C280095B008 /* UIColor+ARColor.m */; };
 		72C7D04766488DC07DC5B9ED /* libPods-ARPlayMagic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9320EF2F8CC708A5052E744 /* libPods-ARPlayMagic.a */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +96,10 @@
 		71A52C5E22E070F30095B008 /* ARTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARTabBarVC.m; sourceTree = "<group>"; };
 		71A52C6322E072210095B008 /* DefaultView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultView.h; sourceTree = "<group>"; };
 		71A52C6422E072210095B008 /* DefaultView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultView.m; sourceTree = "<group>"; };
+		71A52C6E22E155AD0095B008 /* ARPlayPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARPlayPrefix.pch; sourceTree = "<group>"; };
+		71A52C6F22E156770095B008 /* ARPlayMagicMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARPlayMagicMacro.h; sourceTree = "<group>"; };
+		71A52C7222E15C280095B008 /* UIColor+ARColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ARColor.h"; sourceTree = "<group>"; };
+		71A52C7322E15C280095B008 /* UIColor+ARColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ARColor.m"; sourceTree = "<group>"; };
 		E9320EF2F8CC708A5052E744 /* libPods-ARPlayMagic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARPlayMagic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -149,6 +156,8 @@
 			children = (
 				71A52C0522E05EF50095B008 /* AppDelegate.h */,
 				71A52C0622E05EF50095B008 /* AppDelegate.m */,
+				71A52C6A22E1545E0095B008 /* Resources */,
+				71A52C6922E154580095B008 /* Expand */,
 				71A52C4822E06B7B0095B008 /* MainBase */,
 				71A52C3C22E0633C0095B008 /* AppLaunch */,
 				71A52C0822E05EF50095B008 /* art.scnassets */,
@@ -256,13 +265,62 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		71A52C6922E154580095B008 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				71A52C7122E15BE80095B008 /* Category */,
+				71A52C6D22E155660095B008 /* Managers */,
+				71A52C6C22E1551B0095B008 /* Utils */,
+				71A52C6B22E155110095B008 /* Macros */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		71A52C6A22E1545E0095B008 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		71A52C6B22E155110095B008 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				71A52C6E22E155AD0095B008 /* ARPlayPrefix.pch */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		71A52C6C22E1551B0095B008 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				71A52C6F22E156770095B008 /* ARPlayMagicMacro.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		71A52C6D22E155660095B008 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		71A52C7122E15BE80095B008 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				71A52C7222E15C280095B008 /* UIColor+ARColor.h */,
+				71A52C7322E15C280095B008 /* UIColor+ARColor.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		D1FBCBCF737383B5047D008D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				091D57862327D3F971032DD1 /* Pods-ARPlayMagic.debug.xcconfig */,
 				4A1A1665D158AD4BEAEF7530 /* Pods-ARPlayMagic.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -448,6 +506,7 @@
 				71A52C0722E05EF50095B008 /* AppDelegate.m in Sources */,
 				71A52C4E22E06C110095B008 /* ARBaseVC.m in Sources */,
 				71A52C4222E064BA0095B008 /* ARLaunchViewController.m in Sources */,
+				71A52C7422E15C280095B008 /* UIColor+ARColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +518,7 @@
 				71A52C2122E05EF90095B008 /* ARPlayMagicTests.m in Sources */,
 				71A52C5822E06C840095B008 /* ARBaseNavigationVC.m in Sources */,
 				71A52C4322E064BA0095B008 /* ARLaunchViewController.m in Sources */,
+				71A52C7522E15C280095B008 /* UIColor+ARColor.m in Sources */,
 				71A52C6622E072210095B008 /* DefaultView.m in Sources */,
 				71A52C6022E070F30095B008 /* ARTabBarVC.m in Sources */,
 			);
@@ -472,6 +532,7 @@
 				71A52C2C22E05EF90095B008 /* ARPlayMagicUITests.m in Sources */,
 				71A52C5922E06C840095B008 /* ARBaseNavigationVC.m in Sources */,
 				71A52C4422E064BA0095B008 /* ARLaunchViewController.m in Sources */,
+				71A52C7622E15C280095B008 /* UIColor+ARColor.m in Sources */,
 				71A52C6722E072210095B008 /* DefaultView.m in Sources */,
 				71A52C6122E070F30095B008 /* ARTabBarVC.m in Sources */,
 			);
@@ -631,6 +692,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7YU8H2CPB2;
+				GCC_PREFIX_HEADER = ARPlayMagic/Expand/Macros/ARPlayPrefix.pch;
 				INFOPLIST_FILE = ARPlayMagic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -649,6 +711,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7YU8H2CPB2;
+				GCC_PREFIX_HEADER = ARPlayMagic/Expand/Macros/ARPlayPrefix.pch;
 				INFOPLIST_FILE = ARPlayMagic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
