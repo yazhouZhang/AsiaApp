@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LacunchViewController">
             <connections>
-                <outlet property="defaultImage" destination="5UQ-S1-6gZ" id="6w7-Zl-feS"/>
+                <outlet property="backgroundImage" destination="5UQ-S1-6gZ" id="AGq-Kp-mzd"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

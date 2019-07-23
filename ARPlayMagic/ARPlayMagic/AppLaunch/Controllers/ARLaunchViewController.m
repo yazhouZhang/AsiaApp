@@ -30,7 +30,7 @@ const NSInteger ARInchFlag700 = 700;
 const NSInteger ARInchFlag800 = 800;
 
 @interface ARLaunchViewController ()
-@property (weak, nonatomic) IBOutlet UIImageView *defaultImage;
+@property (weak, nonatomic) IBOutlet UIImageView *backgroundImage;
 
 @end
 
@@ -45,58 +45,71 @@ const NSInteger ARInchFlag800 = 800;
 /** 初始化UI */
 - (void)setupUI {
     NSString *imageName = [ARLaunchViewController getLaunchImage];
-    self.defaultImage.image = [UIImage imageNamed:imageName];
-    
+    self.backgroundImage.image = [UIImage imageNamed:imageName];
+    NSLog(@"_____%@",imageName);
     [self.view addSubview:self.defaultView];
-    self.defaultView.hidden = YES;
-//    [self.defaultView mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.edges.mas_equalTo(0);
-//    }];
-//    WeakObj(self);
-//    self.defaultView.reloadBlock = ^{
-//        StrongObj(self);
-//        [self.defaultView lnh_showLoadingHUDMoney];
-//        [self loadReviewResult];
-//    };
+    self.defaultView.hidden = false;
+    [self.defaultView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.mas_equalTo(0);
+    }];
+    WeakObj(self);
+    self.defaultView.reloadBlock = ^{
+        StrongObj(self);
+        if (self.completionHandler) self.completionHandler();
+        return;
+    };
 }
 
 /**
  根据不同尺寸的设备获取相应的launchImage
  */
-+ (UIImage *)getLaunchImage {
++ (NSString *)getLaunchImage {
     
-    NSString *defaultImageName = @"LaunchImage";
-    NSInteger flag = 0;
-    NSInteger screenHeight = CGRectGetHeight([UIScreen mainScreen].bounds);
-    
-    if (screenHeight < ARInch3_5) { // 3.5inch
-        flag = ARInchFlag700;
-        defaultImageName = [NSString stringWithFormat:@"%@-%zd.png", defaultImageName, flag];
-    } else if (screenHeight < ARInch4_0) { // 4.0inch
-        flag = ARInchFlag700;
-        defaultImageName = [NSString stringWithFormat:@"%@-%zd-%zdh.png", defaultImageName, flag, screenHeight];
-    } else if (screenHeight < ARInch4_7) { // 4.7inch
-        flag = ARInchFlag800;
-        defaultImageName = [NSString stringWithFormat:@"%@-%zd-%zdh.png", defaultImageName, flag, screenHeight];
-    } else { // 5.5inch
-        flag = ARInchFlag800;
-        NSString *orientation = @"";
-        switch ([[UIApplication sharedApplication] statusBarOrientation]) {
-            case UIInterfaceOrientationUnknown:
-            case UIInterfaceOrientationPortrait:
-            case UIInterfaceOrientationPortraitUpsideDown:
-                orientation = ARPortrait;
-                break;
-            case UIInterfaceOrientationLandscapeLeft:
-            case UIInterfaceOrientationLandscapeRight:
-                orientation = ARLandscape;
-                break;
-            default:
-                break;
+//    NSString *defaultImageName = @"LaunchImage";
+//    NSInteger flag = 0;
+//    NSInteger screenHeight = CGRectGetHeight([UIScreen mainScreen].bounds);
+//
+//    if (screenHeight < ARInch3_5) { // 3.5inch
+//        flag = ARInchFlag700;
+//        defaultImageName = [NSString stringWithFormat:@"%@-%zd.png", defaultImageName, flag];
+//    } else if (screenHeight < ARInch4_0) { // 4.0inch
+//        flag = ARInchFlag700;
+//        defaultImageName = [NSString stringWithFormat:@"%@-%zd-%zdh.png", defaultImageName, flag, screenHeight];
+//    } else if (screenHeight < ARInch4_7) { // 4.7inch
+//        flag = ARInchFlag800;
+//        defaultImageName = [NSString stringWithFormat:@"%@-%zd-%zdh.png", defaultImageName, flag, screenHeight];
+//    } else { // 5.5inch
+//        flag = ARInchFlag800;
+//        NSString *orientation = @"";
+//        switch ([[UIApplication sharedApplication] statusBarOrientation]) {
+//            case UIInterfaceOrientationUnknown:
+//            case UIInterfaceOrientationPortrait:
+//            case UIInterfaceOrientationPortraitUpsideDown:
+//                orientation = ARPortrait;
+//                break;
+//            case UIInterfaceOrientationLandscapeLeft:
+//            case UIInterfaceOrientationLandscapeRight:
+//                orientation = ARLandscape;
+//                break;
+//            default:
+//                break;
+//        }
+//        defaultImageName = [NSString stringWithFormat:@"%@-%zd-%@-%zdh.png", defaultImageName, flag, orientation, screenHeight];
+//    }
+//    return [UIImage imageNamed:defaultImageName];
+    CGSize viewSize = UIScreen.mainScreen.bounds.size;
+    NSString*viewOrientation = @"Portrait";//横屏请设置成 @"Landscape"
+    NSString*launchImage =nil;
+    NSArray* imagesDict = [[[NSBundle mainBundle] infoDictionary] valueForKey:@"UILaunchImages"];
+    for(NSDictionary* dict in imagesDict) {
+        CGSize imageSize =CGSizeFromString(dict[@"UILaunchImageSize"]);
+
+        NSLog(@"_____%f",imageSize.height);
+        if(CGSizeEqualToSize(imageSize, viewSize) && [viewOrientation isEqualToString:dict[@"UILaunchImageOrientation"]]) {
+            launchImage = dict[@"UILaunchImageName"];
         }
-        defaultImageName = [NSString stringWithFormat:@"%@-%zd-%@-%zdh.png", defaultImageName, flag, orientation, screenHeight];
     }
-    return [UIImage imageNamed:defaultImageName];
+    return launchImage;
 }
 
 /*

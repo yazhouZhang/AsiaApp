@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		71A52C0722E05EF50095B008 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C0622E05EF50095B008 /* AppDelegate.m */; };
 		71A52C0922E05EF50095B008 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A52C0822E05EF50095B008 /* art.scnassets */; };
-		71A52C0C22E05EF50095B008 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C0B22E05EF50095B008 /* ViewController.m */; };
-		71A52C0F22E05EF50095B008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A52C0D22E05EF50095B008 /* Main.storyboard */; };
 		71A52C1122E05EF90095B008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A52C1022E05EF90095B008 /* Assets.xcassets */; };
 		71A52C1422E05EF90095B008 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A52C1222E05EF90095B008 /* LaunchScreen.storyboard */; };
 		71A52C1722E05EF90095B008 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C1622E05EF90095B008 /* main.m */; };
@@ -43,6 +41,27 @@
 		71A52C7422E15C280095B008 /* UIColor+ARColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C7322E15C280095B008 /* UIColor+ARColor.m */; };
 		71A52C7522E15C280095B008 /* UIColor+ARColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C7322E15C280095B008 /* UIColor+ARColor.m */; };
 		71A52C7622E15C280095B008 /* UIColor+ARColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A52C7322E15C280095B008 /* UIColor+ARColor.m */; };
+		71FFD7DF22E6D74F0035607A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71FFD7DE22E6D74E0035607A /* Main.storyboard */; };
+		71FFD7E022E6D74F0035607A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71FFD7DE22E6D74E0035607A /* Main.storyboard */; };
+		71FFD7E122E6D74F0035607A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71FFD7DE22E6D74E0035607A /* Main.storyboard */; };
+		71FFD7F022E6E4500035607A /* ARHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FFD7EF22E6E4500035607A /* ARHomeVC.m */; };
+		71FFD7F122E6E4500035607A /* ARHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FFD7EF22E6E4500035607A /* ARHomeVC.m */; };
+		71FFD7F222E6E4500035607A /* ARHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FFD7EF22E6E4500035607A /* ARHomeVC.m */; };
+		71FFD7F522E6E4610035607A /* ARMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FFD7F322E6E4610035607A /* ARMineVC.m */; };
+		71FFD7F622E6E4610035607A /* ARMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FFD7F322E6E4610035607A /* ARMineVC.m */; };
+		71FFD7F722E6E4610035607A /* ARMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FFD7F322E6E4610035607A /* ARMineVC.m */; };
+		71FFD7FB22E6E4A30035607A /* ARFaceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FFD7F922E6E4A30035607A /* ARFaceVC.m */; };
+		71FFD7FC22E6E4A30035607A /* ARFaceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FFD7F922E6E4A30035607A /* ARFaceVC.m */; };
+		71FFD7FD22E6E4A30035607A /* ARFaceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FFD7F922E6E4A30035607A /* ARFaceVC.m */; };
+		71FFD7FE22E6E4A30035607A /* ARFaceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71FFD7FA22E6E4A30035607A /* ARFaceVC.xib */; };
+		71FFD7FF22E6E4A30035607A /* ARFaceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71FFD7FA22E6E4A30035607A /* ARFaceVC.xib */; };
+		71FFD80022E6E4A30035607A /* ARFaceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71FFD7FA22E6E4A30035607A /* ARFaceVC.xib */; };
+		71FFD80422E70D9A0035607A /* ARStarrySkyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FFD80222E70D990035607A /* ARStarrySkyVC.m */; };
+		71FFD80522E70D9A0035607A /* ARStarrySkyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FFD80222E70D990035607A /* ARStarrySkyVC.m */; };
+		71FFD80622E70D9A0035607A /* ARStarrySkyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FFD80222E70D990035607A /* ARStarrySkyVC.m */; };
+		71FFD80722E70D9A0035607A /* ARStarrySkyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71FFD80322E70D9A0035607A /* ARStarrySkyVC.xib */; };
+		71FFD80822E70D9A0035607A /* ARStarrySkyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71FFD80322E70D9A0035607A /* ARStarrySkyVC.xib */; };
+		71FFD80922E70D9A0035607A /* ARStarrySkyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71FFD80322E70D9A0035607A /* ARStarrySkyVC.xib */; };
 		72C7D04766488DC07DC5B9ED /* libPods-ARPlayMagic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9320EF2F8CC708A5052E744 /* libPods-ARPlayMagic.a */; };
 /* End PBXBuildFile section */
 
@@ -70,9 +89,6 @@
 		71A52C0522E05EF50095B008 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ARPlayMagic/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		71A52C0622E05EF50095B008 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ARPlayMagic/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		71A52C0822E05EF50095B008 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		71A52C0A22E05EF50095B008 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		71A52C0B22E05EF50095B008 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		71A52C0E22E05EF50095B008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71A52C1022E05EF90095B008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71A52C1322E05EF90095B008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71A52C1522E05EF90095B008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,6 +116,17 @@
 		71A52C6F22E156770095B008 /* ARPlayMagicMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARPlayMagicMacro.h; sourceTree = "<group>"; };
 		71A52C7222E15C280095B008 /* UIColor+ARColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ARColor.h"; sourceTree = "<group>"; };
 		71A52C7322E15C280095B008 /* UIColor+ARColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ARColor.m"; sourceTree = "<group>"; };
+		71FFD7DE22E6D74E0035607A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		71FFD7EE22E6E4500035607A /* ARHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARHomeVC.h; sourceTree = "<group>"; };
+		71FFD7EF22E6E4500035607A /* ARHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARHomeVC.m; sourceTree = "<group>"; };
+		71FFD7F322E6E4610035607A /* ARMineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARMineVC.m; sourceTree = "<group>"; };
+		71FFD7F422E6E4610035607A /* ARMineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARMineVC.h; sourceTree = "<group>"; };
+		71FFD7F822E6E4A30035607A /* ARFaceVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARFaceVC.h; sourceTree = "<group>"; };
+		71FFD7F922E6E4A30035607A /* ARFaceVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARFaceVC.m; sourceTree = "<group>"; };
+		71FFD7FA22E6E4A30035607A /* ARFaceVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARFaceVC.xib; sourceTree = "<group>"; };
+		71FFD80122E70D990035607A /* ARStarrySkyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARStarrySkyVC.h; sourceTree = "<group>"; };
+		71FFD80222E70D990035607A /* ARStarrySkyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARStarrySkyVC.m; sourceTree = "<group>"; };
+		71FFD80322E70D9A0035607A /* ARStarrySkyVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARStarrySkyVC.xib; sourceTree = "<group>"; };
 		E9320EF2F8CC708A5052E744 /* libPods-ARPlayMagic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARPlayMagic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -129,6 +156,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		717FBB0222E6AD040093C8CB /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				71FFD7E622E6E3240035607A /* Model */,
+				71FFD7E522E6E3240035607A /* View */,
+				71FFD7E222E6E2DF0035607A /* Controllers */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
 		71A52BF922E05EF50095B008 = {
 			isa = PBXGroup;
 			children = (
@@ -156,15 +193,15 @@
 			children = (
 				71A52C0522E05EF50095B008 /* AppDelegate.h */,
 				71A52C0622E05EF50095B008 /* AppDelegate.m */,
+				71FFD7DE22E6D74E0035607A /* Main.storyboard */,
 				71A52C6A22E1545E0095B008 /* Resources */,
 				71A52C6922E154580095B008 /* Expand */,
 				71A52C4822E06B7B0095B008 /* MainBase */,
 				71A52C3C22E0633C0095B008 /* AppLaunch */,
 				71A52C0822E05EF50095B008 /* art.scnassets */,
-				71A52C0A22E05EF50095B008 /* ViewController.h */,
-				71A52C0B22E05EF50095B008 /* ViewController.m */,
+				71FFD7EA22E6E3A30035607A /* Face */,
 				71A52C3A22E062A80095B008 /* Home */,
-				71A52C0D22E05EF50095B008 /* Main.storyboard */,
+				717FBB0222E6AD040093C8CB /* Mine */,
 				71A52C1022E05EF90095B008 /* Assets.xcassets */,
 				71A52C1222E05EF90095B008 /* LaunchScreen.storyboard */,
 				71A52C1522E05EF90095B008 /* Info.plist */,
@@ -194,6 +231,9 @@
 		71A52C3A22E062A80095B008 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				71FFD7E922E6E3400035607A /* Model */,
+				71FFD7E822E6E3390035607A /* Controllers */,
+				71FFD7E722E6E3350035607A /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -313,6 +353,89 @@
 				71A52C7322E15C280095B008 /* UIColor+ARColor.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		71FFD7E222E6E2DF0035607A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				71FFD7F422E6E4610035607A /* ARMineVC.h */,
+				71FFD7F322E6E4610035607A /* ARMineVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		71FFD7E522E6E3240035607A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71FFD7E622E6E3240035607A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71FFD7E722E6E3350035607A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71FFD7E822E6E3390035607A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				71FFD7EE22E6E4500035607A /* ARHomeVC.h */,
+				71FFD7EF22E6E4500035607A /* ARHomeVC.m */,
+				71FFD80122E70D990035607A /* ARStarrySkyVC.h */,
+				71FFD80222E70D990035607A /* ARStarrySkyVC.m */,
+				71FFD80322E70D9A0035607A /* ARStarrySkyVC.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		71FFD7E922E6E3400035607A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71FFD7EA22E6E3A30035607A /* Face */ = {
+			isa = PBXGroup;
+			children = (
+				71FFD7ED22E6E3BB0035607A /* View */,
+				71FFD7EC22E6E3B70035607A /* Model */,
+				71FFD7EB22E6E3B20035607A /* Controllers */,
+			);
+			path = Face;
+			sourceTree = "<group>";
+		};
+		71FFD7EB22E6E3B20035607A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				71FFD7F822E6E4A30035607A /* ARFaceVC.h */,
+				71FFD7F922E6E4A30035607A /* ARFaceVC.m */,
+				71FFD7FA22E6E4A30035607A /* ARFaceVC.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		71FFD7EC22E6E3B70035607A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71FFD7ED22E6E3BB0035607A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		D1FBCBCF737383B5047D008D /* Pods */ = {
@@ -436,13 +559,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71FFD7FE22E6E4A30035607A /* ARFaceVC.xib in Resources */,
+				71FFD7DF22E6D74F0035607A /* Main.storyboard in Resources */,
 				71A52C0922E05EF50095B008 /* art.scnassets in Resources */,
 				71A52C1422E05EF90095B008 /* LaunchScreen.storyboard in Resources */,
 				71A52C4522E064BA0095B008 /* ARLaunchViewController.xib in Resources */,
+				71FFD80722E70D9A0035607A /* ARStarrySkyVC.xib in Resources */,
 				71A52C5122E06C110095B008 /* ArBaseVC.xib in Resources */,
 				71A52C1122E05EF90095B008 /* Assets.xcassets in Resources */,
 				71A52C5A22E06C840095B008 /* ARBaseNavigationVC.xib in Resources */,
-				71A52C0F22E05EF50095B008 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +577,10 @@
 			files = (
 				71A52C4622E064BA0095B008 /* ARLaunchViewController.xib in Resources */,
 				71A52C5B22E06C840095B008 /* ARBaseNavigationVC.xib in Resources */,
+				71FFD80822E70D9A0035607A /* ARStarrySkyVC.xib in Resources */,
 				71A52C5222E06C110095B008 /* ArBaseVC.xib in Resources */,
+				71FFD7FF22E6E4A30035607A /* ARFaceVC.xib in Resources */,
+				71FFD7E022E6D74F0035607A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,7 +590,10 @@
 			files = (
 				71A52C4722E064BA0095B008 /* ARLaunchViewController.xib in Resources */,
 				71A52C5C22E06C840095B008 /* ARBaseNavigationVC.xib in Resources */,
+				71FFD80922E70D9A0035607A /* ARStarrySkyVC.xib in Resources */,
 				71A52C5322E06C110095B008 /* ArBaseVC.xib in Resources */,
+				71FFD80022E6E4A30035607A /* ARFaceVC.xib in Resources */,
+				71FFD7E122E6D74F0035607A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,11 +629,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71FFD7F522E6E4610035607A /* ARMineVC.m in Sources */,
+				71FFD7F022E6E4500035607A /* ARHomeVC.m in Sources */,
 				71A52C6522E072210095B008 /* DefaultView.m in Sources */,
 				71A52C5722E06C840095B008 /* ARBaseNavigationVC.m in Sources */,
 				71A52C5F22E070F30095B008 /* ARTabBarVC.m in Sources */,
-				71A52C0C22E05EF50095B008 /* ViewController.m in Sources */,
 				71A52C1722E05EF90095B008 /* main.m in Sources */,
+				71FFD80422E70D9A0035607A /* ARStarrySkyVC.m in Sources */,
+				71FFD7FB22E6E4A30035607A /* ARFaceVC.m in Sources */,
 				71A52C0722E05EF50095B008 /* AppDelegate.m in Sources */,
 				71A52C4E22E06C110095B008 /* ARBaseVC.m in Sources */,
 				71A52C4222E064BA0095B008 /* ARLaunchViewController.m in Sources */,
@@ -515,12 +649,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				71A52C4F22E06C110095B008 /* ARBaseVC.m in Sources */,
+				71FFD7F122E6E4500035607A /* ARHomeVC.m in Sources */,
 				71A52C2122E05EF90095B008 /* ARPlayMagicTests.m in Sources */,
 				71A52C5822E06C840095B008 /* ARBaseNavigationVC.m in Sources */,
+				71FFD80522E70D9A0035607A /* ARStarrySkyVC.m in Sources */,
 				71A52C4322E064BA0095B008 /* ARLaunchViewController.m in Sources */,
 				71A52C7522E15C280095B008 /* UIColor+ARColor.m in Sources */,
+				71FFD7FC22E6E4A30035607A /* ARFaceVC.m in Sources */,
 				71A52C6622E072210095B008 /* DefaultView.m in Sources */,
 				71A52C6022E070F30095B008 /* ARTabBarVC.m in Sources */,
+				71FFD7F622E6E4610035607A /* ARMineVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,12 +667,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				71A52C5022E06C110095B008 /* ARBaseVC.m in Sources */,
+				71FFD7F222E6E4500035607A /* ARHomeVC.m in Sources */,
 				71A52C2C22E05EF90095B008 /* ARPlayMagicUITests.m in Sources */,
 				71A52C5922E06C840095B008 /* ARBaseNavigationVC.m in Sources */,
+				71FFD80622E70D9A0035607A /* ARStarrySkyVC.m in Sources */,
 				71A52C4422E064BA0095B008 /* ARLaunchViewController.m in Sources */,
 				71A52C7622E15C280095B008 /* UIColor+ARColor.m in Sources */,
+				71FFD7FD22E6E4A30035607A /* ARFaceVC.m in Sources */,
 				71A52C6722E072210095B008 /* DefaultView.m in Sources */,
 				71A52C6122E070F30095B008 /* ARTabBarVC.m in Sources */,
+				71FFD7F722E6E4610035607A /* ARMineVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,14 +696,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		71A52C0D22E05EF50095B008 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71A52C0E22E05EF50095B008 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		71A52C1222E05EF90095B008 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -624,7 +758,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -677,7 +811,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -690,17 +824,19 @@
 			baseConfigurationReference = 091D57862327D3F971032DD1 /* Pods-ARPlayMagic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7YU8H2CPB2;
 				GCC_PREFIX_HEADER = ARPlayMagic/Expand/Macros/ARPlayPrefix.pch;
 				INFOPLIST_FILE = ARPlayMagic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhifu360.www.ARPlayMagic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -709,17 +845,19 @@
 			baseConfigurationReference = 4A1A1665D158AD4BEAEF7530 /* Pods-ARPlayMagic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7YU8H2CPB2;
 				GCC_PREFIX_HEADER = ARPlayMagic/Expand/Macros/ARPlayPrefix.pch;
 				INFOPLIST_FILE = ARPlayMagic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhifu360.www.ARPlayMagic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

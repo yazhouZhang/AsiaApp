@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "ARLaunchViewController.h"
+#import "ARTabBarVC.h"
 
 @interface AppDelegate ()
 
@@ -29,6 +30,9 @@
 -(void)setUpLaunchViewController{
     ARLaunchViewController *launch = [[ARLaunchViewController alloc] init];
     [self restoreRootViewController:launch];
+    launch.completionHandler = ^{
+        [self restoreRootViewController:[ARTabBarVC instance]];
+    };
 }
 
 /**

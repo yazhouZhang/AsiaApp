@@ -42,6 +42,10 @@
     }
 }
 
+-(void)backPage{
+    [self.navigationController popViewControllerAnimated:true];
+}
+
 - (DefaultView *)defaultView {
     if (!_defaultView) {
         _defaultView = [DefaultView new];

@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "ARBaseVC.h"
-
+typedef void (^CompletionHandlerBlock)(void);
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ARLaunchViewController : ARBaseVC
-
+@property (nonatomic, copy) CompletionHandlerBlock completionHandler;
 @end
 
 NS_ASSUME_NONNULL_END
